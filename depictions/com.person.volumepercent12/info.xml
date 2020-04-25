@@ -1,0 +1,44 @@
+<package>
+	<id>com.person.volumepercent12</id>
+	<name>Full Package</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>12.4.6</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>An awesome MobileSubstrate tweak!</shortDescription>
+	<descriptionlist>
+		<description>This is an package will full depictions.</description>
+		<description>It has more description lines.</description>
+		<description><![CDATA[
+		You can also have<br/> 
+		a multi-line item.
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>This is for when you're controlling media volume </description>
+			<image>media-volume.PNG</image>
+		</screenshot>		
+		<screenshot>
+			<description>This is for when you're controlling ringer volume </description>
+			<image>ringer-volume.PNG</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+		<change>Basic percentage label</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>
