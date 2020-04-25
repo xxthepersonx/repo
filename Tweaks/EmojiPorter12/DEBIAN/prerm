@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Restoring old emojis..."
+cp -a /var/mobile/Documents/EmojiPorter/backup/AppleColorEmoji@2x.ttc /System/Library/Fonts/Core
+echo "Cleaning up..."
+rm -rf /var/mobile/Documents/EmojiPorter/
+echo "Reloading Daemons..."
+killall -9 discoveryd
+killall -9 mDNSResponder
+echo "All done!"
+exit 0

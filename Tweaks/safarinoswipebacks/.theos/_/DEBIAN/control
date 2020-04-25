@@ -1,0 +1,11 @@
+Package: com.person.snwb
+Name: SafariNoSwipeBacks
+Description: Disables backward and forward swiping in safari!
+Priority: optional
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: xthepersonx
+Author: xthepersonx
+Version: 1.0.1
+Installed-Size: 120

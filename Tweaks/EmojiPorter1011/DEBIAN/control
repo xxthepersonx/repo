@@ -1,0 +1,9 @@
+Package: com.person.emojiporter1011
+Name: EmojiPorter (10/11)
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: com.ps.emojiportwt, mobilesubstrate, firmware (<= 11.4.1), firmware (>= 10.0), curl
+Author: xxthepersonx
+Section: Tweaks
+Description: Installs the latest emojis to your device! For iOS 10-11 ONLY, make sure to add "https://poomsmart.github.io/repo/" to your repo list before installing! Warning: an extra ~60mb is needed to download new emojis
+Maintainer: xxthepersonx

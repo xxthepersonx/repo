@@ -1,0 +1,9 @@
+Package: com.person.ignoswipebacks
+Name: IGNoSwipeBacks
+Depends: mobilesubstrate
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Disable “swiping to go back” in Instagram. Helpful if it happens on accident while scrolling
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks

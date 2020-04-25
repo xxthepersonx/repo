@@ -1,0 +1,9 @@
+Package: com.person.snoozenomore
+Name: SnoozeNoMore
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Disables snoozing in the clock app!
+Maintainer: person
+Author: person
+Section: Tweaks

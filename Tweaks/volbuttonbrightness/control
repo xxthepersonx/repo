@@ -1,0 +1,9 @@
+Package: com.person.volbuttonbrightness
+Name: VolButtonBrightness
+Depends: mobilesubstrate
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Change the brightness with your volume buttons!
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks

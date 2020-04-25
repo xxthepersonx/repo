@@ -1,0 +1,10 @@
+Package: com.person.ringerpercent13
+Name: RingerPercent13
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker
+Architecture: iphoneos-arm
+Description: Creates a small percentage label to your ringer volume on iOS 13!
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 216

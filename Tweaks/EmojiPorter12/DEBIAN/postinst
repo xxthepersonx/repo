@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cd /var/mobile/Documents/EmojiPorter/newemojis
+echo "Downloading new Emojis! Please wait..."
+curl https://raw.githubusercontent.com/PoomSmart/EmojiLibrary/master/Font-13-Native/AppleColorEmoji@2x.ttc -o AppleColorEmoji@2x.ttc
+echo "Backing up original Emojis!"
+cp -a /System/Library/Fonts/Core/AppleColorEmoji@2x.ttc /var/mobile/Documents/EmojiPorter/backup
+echo "Copying over new emojis!"
+cp -a /var/mobile/Documents/EmojiPorter/newemojis/AppleColorEmoji@2x.ttc /System/Library/Fonts/Core
+echo "Reloading Daemons!"
+killall -9 discoveryd
+killall -9 mDNSResponder
+echo "All done!"
+exit 0

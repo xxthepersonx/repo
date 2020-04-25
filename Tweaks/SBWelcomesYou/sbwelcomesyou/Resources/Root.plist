@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.person.sbwy</string>
+			<key>key</key>
+			<string>soundEnabled</string>
+			<key>label</key>
+			<string>Sound Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.person.sbwy</string>
+			<key>key</key>
+			<string>vibrateEnabled</string>
+			<key>label</key>
+			<string>Vibrate Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.person.sbwy</string>
+			<key>key</key>
+			<string>playEarly</string>
+			<key>label</key>
+			<string>Play Earlier</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Place sound files in "/var/mobile/sbwelcomesyou/"!</string>
+		</dict>
+    <dict>
+        <key>cell</key>
+        <string>PSLinkListCell</string>
+		 <key>defaults</key>
+		 <string>com.person.sbwy</string>
+        <key>detail</key>
+        <string>PSListItemsController</string>
+		 <key>key</key>
+		 <string>soundFromList</string>
+        <key>label</key>
+        <string>Sounds</string>
+        <key>valuesDataSource</key>
+        <string>soundValues</string>
+        <key>titlesDataSource</key>
+        <string>soundTitles</string>
+    </dict> 
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string> </string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SBWelcomesYou</string>
+</dict>
+</plist>

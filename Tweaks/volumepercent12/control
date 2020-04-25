@@ -1,0 +1,9 @@
+Package: com.person.volumepercent12
+Name: VolumePercent12
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks

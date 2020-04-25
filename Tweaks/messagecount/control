@@ -1,0 +1,9 @@
+Package: com.person.messagecount
+Name: MessageCount
+Depends: mobilesubstrate
+Version: 1.1.0
+Architecture: iphoneos-arm
+Description: Keeps track of how many messages you've sent! 
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks

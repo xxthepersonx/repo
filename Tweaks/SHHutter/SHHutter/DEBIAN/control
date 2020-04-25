@@ -1,0 +1,9 @@
+Package: com.person.shhutter
+Name: SHHutter
+Version: 1.0.3-1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Author: xxthepersonx
+Section: Tweaks
+Description: Renames the camera shutter sound so you dont hear it while taking pictures
+Maintainer: xxthepersonx

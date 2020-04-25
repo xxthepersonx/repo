@@ -1,0 +1,9 @@
+Package: com.person.btspotify
+Name: BackTrackSpotify
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Skip to previous track every time back skip button is pressed. No more restarting my songs!
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks

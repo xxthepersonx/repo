@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>RingerPercent13 Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.person.ringerpercent13</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enable Tweak</string>
+		</dict>
+			<dict>
+				<key>PostNotification</key>
+				<string>com.person.ringerpercent13.prefsChanged</string> 
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>cellClass</key>
+				<string>CSColorDisplayCell</string>
+				<key>defaults</key>
+				<string>com.person.ringerpercent13</string>
+				<key>defaultsPath</key>
+				<string>/Library/PreferenceBundles/RingerPercent13.bundle</string>
+				<key>key</key>
+				<string>textColor</string>
+				<key>label</key>
+				<string>My Awesome Background Color</string>
+                <key>fallback</key>
+                <string>FFFFFF</string>
+				<key>alpha</key>
+				<false/>
+			</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>RingerPercent13</string>
+</dict>
+</plist>

@@ -1,28 +1,254 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Package: com.person.btspotify
+Version: 1.0.0
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Maintainer: xxthepersonx
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./Tweaks/backtrackspotify/packages/com.person.btspotify_1.0.0_iphoneos-arm.deb
+Size: 3214
+MD5sum: e0ec9ac2c176fc5485c05be6609b832d
+SHA1: e361a2b243d9bd0933c6f1aac38054b2fe6d0f67
+SHA256: 2253793a51d62a1bac7de3b36ba42f1c07f1013c0bbe7733d4715cf1e2e3c482
+Section: Tweaks
+Description: Skip to previous track every time back skip button is pressed. No more restarting my songs!
+Author: xxthepersonx
+Name: BackTrackSpotify
 
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
+Package: com.person.emojiporter1011
+Version: 1.0
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Maintainer: xxthepersonx
+Depends: com.ps.emojiportwt, mobilesubstrate, firmware (<= 11.4.1), firmware (>= 10.0), curl
+Filename: ./Tweaks/EmojiPorter1011/EmojiPorter1011.deb
+Size: 1334
+MD5sum: 13cdd3b9b4947c58c8faf3155ec60696
+SHA1: 1885d00e21abcf5c4588f0d6f7c920d0f8ce890a
+SHA256: babd902c17856c232d78dacb2c57ad3ef5b85cd1cfdfe4c38959184ef3989dda
+Section: Tweaks
+Description: Installs the latest emojis to your device! For iOS 10-11 ONLY, make sure to add "https://poomsmart.github.io/repo/" to your repo list before installing! Warning: an extra ~60mb is needed to download new emojis
+Author: xxthepersonx
+Name: EmojiPorter (10/11)
+
+Package: com.person.emojiporter12
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Depends: com.ps.emojiportpe, mobilesubstrate, firmware (>= 12.0), curl
+Filename: ./Tweaks/EmojiPorter12/EmojiPorter12.deb
+Size: 1316
+MD5sum: 65b967ebd5fd2861e48184b6dd78bc6f
+SHA1: fd15ea64efc60932b9ee86b0204ef91b31f18f4e
+SHA256: aca326bc8eb6cd048c22883e916237014fd28a3701cac2bf3b0e900bf7dbdae0
+Section: Tweaks
+Description: Installs the latest emojis to your device! For iOS 12 ONLY, make sure to add "https://poomsmart.github.io/repo/" to your repo list before installing! Warning: an extra ~70mb is needed to download new emojis
+Author: xxthepersonx
+Name: EmojiPorter (12)
+
+Package: com.person.ignoswipebacks
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./Tweaks/ignoswipebacks/packages/com.person.ignoswipebacks_1.0.1_iphoneos-arm.deb
+Size: 6290
+MD5sum: f1d5559f7220fb347b9d1efffa7b8e9e
+SHA1: a8f2df6700ab310cd5f11f337fb06f94318fdb08
+SHA256: b1f06bce6bfeef4e16be3452a560fa7156432b3dcc6c9470e96b6e709591a3ec
+Section: Tweaks
+Description: Disable “swiping to go back” in Instagram. Helpful if it happens on accident while scrolling
+Author: xxthepersonx
+Name: IGNoSwipeBacks
+
+Package: com.person.ilr
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./Tweaks/iconlabelremover/packages/com.person.ilr_1.0.1_iphoneos-arm.deb
+Size: 3170
+MD5sum: ba546841f98465438865c9cca0df864e
+SHA1: 11964c3710fd09a17d5ad57cdebe22566b79cd20
+SHA256: 9af862433abcff930e058e8164d48d92f12dc3002498074806225dc7926fc5c4
+Section: Tweaks
+Description: Removes all icon labels!
+Author: xxthepersonx
+Name: IconLabelRemover
+
+Package: com.person.messagecount
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: ./Tweaks/messagecount/packages/com.person.messagecount_1.1.0_iphoneos-arm.deb
+Size: 7132
+MD5sum: 78869044e26678362aeaa3b1a47990c4
+SHA1: a21c5c0bca65d3c683591deb86c54d2cdce6cc34
+SHA256: 004a38e1ee9278fe97dba260fddd6070ce6b443ad1465b51a641f0befc20e222
+Section: Tweaks
+Description: Keeps track of how many messages you've sent!
+Author: xxthepersonx
+Name: MessageCount
+
+Package: com.person.nalb
+Version: 0.0.1-5+debug
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./Tweaks/NoAppLinkBanners/com.person.nalb_0.0.1-5+debug_iphoneos-arm.deb
+Size: 3878
+MD5sum: 34004b64d0eba092f63b0f3470648b3c
+SHA1: 884b94ca316b934008816326fdc8113e045f73fa
+SHA256: d0c0f19afb6e6e1dd8b8fe1c11f49fbd0976b05625886e5f0fd752f636c2608c
+Section: Tweaks
+Description: Gets rid of App Store link banners in safari. No settings to configure!
+Author: xxthepersonx
+Name: NoAppLinkBanners
+
+Package: com.person.nopagedots
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./Tweaks/nopagedots/packages/com.person.nopagedots_1.0_iphoneos-arm.deb
+Size: 2964
+MD5sum: 5d0bb92552a6aa329f1d92099666ee67
+SHA1: 517ae3d644612e68a5368a356ab05b8e84546d10
+SHA256: 91c2bde01a120b04f19b157ffe6cde74c3f66874a4b9dea0befd8c643270bf01
+Section: Tweaks
+Description: Removes the page dots from the HomeScreen
+Author: xxthepersonx
+Name: NoPageDots
+
+Package: com.person.ringerpercent13
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 216
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker
+Filename: ./Tweaks/ringerpercent13/packages/com.person.ringerpercent13_1.0.0_iphoneos-arm.deb
+Size: 6742
+MD5sum: 46ebd4f4a8e866f0a66af0e8e44c0c64
+SHA1: 6ee1f2bcc02181e7c4bbe0566376821ad03cb9a5
+SHA256: c9d63c0b9cffc5b8bb01af26d332d109aba5d1b5a24922456067ec5e8145e53e
+Section: Tweaks
+Description: Creates a small percentage label to your ringer volume on iOS 13!
+Author: xxthepersonx
+Name: RingerPercent13
+
+Package: com.person.sbwy
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: ./Tweaks/SBWelcomesYou/SBWelcomesYou.deb
+Size: 165846
+MD5sum: 21171a7c8cc3e8f44973fd0ab38d16d1
+SHA1: 7bcf8b4400078ded08462ec053cdb47cb000f61f
+SHA256: 34fe6e0e2fc8d2c943347b75018c956d4d9b4882a5a631ef5f55e22ac303dcd6
+Section: Tweaks
+Description: plays the windows startup sound when you respring your device! Also supports custom sounds! Version  1.1.2 adds an option to play sound early!
+Author: xxthepersonx
+Name: SBWelcomesYou
+
+Package: com.person.scrubup
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 312
+Depends: mobilesubstrate
+Filename: ./Tweaks/scrubup/packages/com.person.scrubup_1.0_iphoneos-arm.deb
+Size: 7222
+MD5sum: 4b280272db5b6d13a819d9fdf070e8fe
+SHA1: bea782bdd9cb7c63ea0e5c317960ed18c32e19c8
+SHA256: d362d2f67137fe1551d51bf1d0d508f345f4457e7e885d262f109a216f71f488
+Section: Tweaks
+Description: Customize your lock screen scrubber size
+Author: xxthepersonx
+Name: ScrubUp
+
+Package: com.person.shhutter
+Version: 1.0.3-1
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Depends: mobilesubstrate
+Filename: ./Tweaks/SHHutter/SHHutter.deb
+Size: 1984
+MD5sum: fa1b27179f4e90c1316c2cb01042d847
+SHA1: 7f7db169f27c06271a4f6f47a1ba2f1ded66850a
+SHA256: a0cef2ac5c8a52a6545214d092b8acb23565ce856c72149eab32bb80b5cc3152
+Section: Tweaks
+Description: Renames the camera shutter sound so you dont hear it while taking pictures
+Author: xxthepersonx
+Name: SHHutter
+
+Package: com.person.snoozenomore
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: person
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./Tweaks/snoozenomore/packages/com.person.snoozenomore_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2900
+MD5sum: 907947d06fc3937808937a4a7c7b964d
+SHA1: 7d7cb42ae8ac08975594bad55eb453822b69d062
+SHA256: f39df6a477d4199d6342846b9204ecb18dfe5cdfe3b875bd1abeb9510679bf5f
+Section: Tweaks
+Description: Disables snoozing in the clock app!
+Author: person
+Name: SnoozeNoMore
+
+Package: com.person.snwb
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: xthepersonx
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./Tweaks/safarinoswipebacks/packages/com.person.snwb_1.0.1_iphoneos-arm.deb
+Size: 2998
+MD5sum: eb71f436182a6d2fed041e4c0271505a
+SHA1: 2ff2f962d7344603492494dfaf799e68e7d3d722
+SHA256: 41df50147dcb0d3090f4cc092c78614613337f627102eb6173551015a60e1e09
+Section: Tweaks
+Priority: optional
+Description: Disables backward and forward swiping in safari!
+Author: xthepersonx
+Name: SafariNoSwipeBacks
+
+Package: com.person.volbuttonbrightness
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: ./Tweaks/volbuttonbrightness/packages/com.person.volbuttonbrightness_1.0.2_iphoneos-arm.deb
+Size: 6182
+MD5sum: 9d00e44c7986f321dbf16448c015a01c
+SHA1: 1c2032845b4dfcc2515ee901b17a1b6643403d91
+SHA256: 95a446b03907e01ef82a23c53c040a99f104369366cde60069cb12f3c5a2920c
+Section: Tweaks
+Description: Change the brightness with your volume buttons!
+Author: xxthepersonx
+Name: VolButtonBrightness
+
+Package: com.person.volumepercent12
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./Tweaks/volumepercent12/packages/com.person.volumepercent12_0.0.1_iphoneos-arm.deb
+Size: 9516
+MD5sum: 23604374e82255992ddedfcddb0138a8
+SHA1: 9654e43c59830be80f6436f9944903401054ca10
+SHA256: 5455d247e97ea85f2287f3083be13fc89236c68af3d69b3d6ea8b5353ce40d6c
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: xxthepersonx
+Name: VolumePercent12
 

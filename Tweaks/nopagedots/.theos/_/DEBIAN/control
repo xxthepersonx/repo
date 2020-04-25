@@ -1,0 +1,10 @@
+Package: com.person.nopagedots
+Name: NoPageDots
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Removes the page dots from the HomeScreen
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks
+Version: 1.0
+Installed-Size: 120

@@ -1,0 +1,10 @@
+Package: com.person.scrubup
+Name: ScrubUp
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Customize your lock screen scrubber size
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks
+Version: 1.0
+Installed-Size: 312

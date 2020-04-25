@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Reverting Shutter file :/"
+
+mv /System/Library/Audio/UISounds/photoShutter.bak /System/Library/Audio/UISounds/photoShutter.caf
+
+exit 0

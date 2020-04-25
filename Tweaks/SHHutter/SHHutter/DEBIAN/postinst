@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Renaming Shutter File :)"
+
+mv /System/Library/Audio/UISounds/photoShutter.caf /System/Library/Audio/UISounds/photoShutter.bak
+
+exit 0
