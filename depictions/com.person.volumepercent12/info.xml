@@ -1,6 +1,6 @@
 <package>
 	<id>com.person.volumepercent12</id>
-	<name>Full Package</name>
+	<name>volumepercent12</name>
 	<version>0.0.1</version>
 	<compatibility>
 		<firmware>
@@ -10,13 +10,12 @@
 	<dependencies>
 		<package>mobilesubstrate</package>
 	</dependencies>
-	<shortDescription>An awesome MobileSubstrate tweak!</shortDescription>
+	<shortDescription>Creates a small percentage label when changing volumes</shortDescription>
 	<descriptionlist>
-		<description>This is an package will full depictions.</description>
-		<description>It has more description lines.</description>
+		<description>Label is black</description>
 		<description><![CDATA[
-		You can also have<br/> 
-		a multi-line item.
+		(Will use a color picker<br/>
+		in th future).
 		]]>
 		</description>
 	</descriptionlist>
@@ -32,7 +31,6 @@
 	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
-		<change>Basic percentage label</change>
 	</changelog>
 	<links>
 		<link>
