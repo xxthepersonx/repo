@@ -178,10 +178,10 @@ Architecture: iphoneos-arm
 Maintainer: xxthepersonx
 Depends: firmware (>= 1.0)
 Filename: ./Tweaks/SHHutter/SHHutter.deb
-Size: 1496
-MD5sum: 8ec9458c27f2d4f295e5a0dae62de128
-SHA1: bd7548ac5a86729e624f9a446d8df3fcf1b2336d
-SHA256: f82014074a10f05b323a794f35a4201dd41d35efc6545fc4ed8c58e479dbb7dc
+Size: 864
+MD5sum: 22b7e0d005c68ee5b55c2272005431bd
+SHA1: 74b48f46e18d1d2545e5f40c23cce0f897d8f195
+SHA256: 7568b653b1a412653da61e96770b024d6cc523689d5ef2c27c1563123a963c17
 Section: Tweaks
 Description: Renames the camera shutter sound so you dont hear it while taking pictures
 Author: xxthepersonx

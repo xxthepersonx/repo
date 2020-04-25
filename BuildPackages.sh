@@ -9,5 +9,5 @@ bzip2 -cf Packages > Packages.bz2
 find . -name '.DS_Store' -type f -delete
 
 git add -A
-git commit -m "updated some packages!"
+git commit -m "removed pesky DS_Store!"
 git push -u origin master
