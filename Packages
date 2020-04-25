@@ -173,15 +173,15 @@ Author: xxthepersonx
 Name: ScrubUp
 
 Package: com.person.shhutter
-Version: 1.0.3-1
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: xxthepersonx
-Depends: mobilesubstrate
+Depends: firmware (>= 1.0)
 Filename: ./Tweaks/SHHutter/SHHutter.deb
-Size: 1984
-MD5sum: fa1b27179f4e90c1316c2cb01042d847
-SHA1: 7f7db169f27c06271a4f6f47a1ba2f1ded66850a
-SHA256: a0cef2ac5c8a52a6545214d092b8acb23565ce856c72149eab32bb80b5cc3152
+Size: 1496
+MD5sum: 8ec9458c27f2d4f295e5a0dae62de128
+SHA1: bd7548ac5a86729e624f9a446d8df3fcf1b2336d
+SHA256: f82014074a10f05b323a794f35a4201dd41d35efc6545fc4ed8c58e479dbb7dc
 Section: Tweaks
 Description: Renames the camera shutter sound so you dont hear it while taking pictures
 Author: xxthepersonx
@@ -240,16 +240,33 @@ Package: com.person.volumepercent12
 Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: xxthepersonx
-Installed-Size: 116
+Installed-Size: 152
 Depends: mobilesubstrate
 Filename: ./Tweaks/volumepercent12/packages/com.person.volumepercent12_0.0.1_iphoneos-arm.deb
-Size: 9516
-MD5sum: 23604374e82255992ddedfcddb0138a8
-SHA1: 9654e43c59830be80f6436f9944903401054ca10
-SHA256: 5455d247e97ea85f2287f3083be13fc89236c68af3d69b3d6ea8b5353ce40d6c
+Size: 6542
+MD5sum: ef002259e8af9ed02f48297a5529a750
+SHA1: 5dfdc551b944e09c7ae6e44a3c071af7655f5dae
+SHA256: 80a3a25335baaf144d2a5906bc72a11d69fb6f6c86cc621d7a045459a2cf2b31
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
+Description: Add a percentage label to your volume HUD!
 Author: xxthepersonx
-Name: VolumePercent12
 Depiction: https://xxthepersonx.github.io/repo/depictions/?p=com.person.volumepercent12
+Name: VolumePercent12
+
+Package: com.person.volumepercent12
+Version: 0.2.0
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./Tweaks/volumepercent12/packages/com.person.volumepercent12_0.2.0_iphoneos-arm.deb
+Size: 6550
+MD5sum: d8fb46a714c07f8643d3f86b17226322
+SHA1: fee124f9d4b14c492d955323ddbeb18adec0a78b
+SHA256: a8783db1b694b15f7831475a80b5010683c371ac909ed190a7c2b8b2ea8e8cc9
+Section: Tweaks
+Description: Add a percentage label to your volume HUD!
+Author: xxthepersonx
+Depiction: https://xxthepersonx.github.io/repo/depictions/?p=com.person.volumepercent12
+Name: VolumePercent12
 

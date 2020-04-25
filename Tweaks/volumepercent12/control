@@ -1,7 +1,7 @@
 Package: com.person.volumepercent12
 Name: VolumePercent12
 Depends: mobilesubstrate
-Version: 0.0.1
+Version: 0.2.0
 Architecture: iphoneos-arm
 Description: Add a percentage label to your volume HUD!
 Maintainer: xxthepersonx
