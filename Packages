@@ -125,16 +125,16 @@ Author: xxthepersonx
 Name: NoAppLinkBanners
 
 Package: com.person.nopagedots
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: xxthepersonx
-Installed-Size: 120
+Installed-Size: 152
 Depends: mobilesubstrate
-Filename: ./Tweaks/nopagedots/packages/com.person.nopagedots_1.0_iphoneos-arm.deb
-Size: 2964
-MD5sum: 5d0bb92552a6aa329f1d92099666ee67
-SHA1: 517ae3d644612e68a5368a356ab05b8e84546d10
-SHA256: 91c2bde01a120b04f19b157ffe6cde74c3f66874a4b9dea0befd8c643270bf01
+Filename: ./Tweaks/nopagedots/packages/com.person.nopagedots_1.0.1_iphoneos-arm.deb
+Size: 2862
+MD5sum: bf46477fe356b768a068f62f9cbef1dc
+SHA1: 8aa1a0d48551cafc4e078e9b10d5b2a59687cdf2
+SHA256: 7c355d5fe2abf0cf11b8d916143ae903775a1fea87709e69c43373cd4823eee4
 Section: Tweaks
 Description: Removes the page dots from the HomeScreen
 Author: xxthepersonx

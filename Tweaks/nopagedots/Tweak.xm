@@ -2,9 +2,7 @@
 
 -(void) setHidden:(bool)hidden{
 
-hidden = TRUE;
-
-%orig(hidden);
+%orig(TRUE);
 
 }
 %end
