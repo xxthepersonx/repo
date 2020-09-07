@@ -1,0 +1,10 @@
+Package: com.person.movepagedots
+Name: MovePageDots
+Architecture: iphoneos-arm
+Description: A tweak to move your page dots around horizontally (X-Coordinate) or vertically (Y-Coordinate)!
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 1.0
+Installed-Size: 280

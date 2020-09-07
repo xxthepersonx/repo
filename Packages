@@ -92,6 +92,22 @@ Description: Keeps track of how many messages you've sent!
 Author: xxthepersonx
 Name: MessageCount
 
+Package: com.person.movepagedots
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./Tweaks/movepagedots/packages/com.person.movepagedots_1.0_iphoneos-arm.deb
+Size: 8064
+MD5sum: ec8cac79e4022ec5e1863469eadbbb39
+SHA1: 3cc3880313045084ca053506863b8c9b54ed7a67
+SHA256: 2c4444da7110875228dda6477c6842b0b2fb73f042eb0f6e4d9887c19d7b771a
+Section: Tweaks
+Description: A tweak to move your page dots around horizontally (X-Coordinate) or vertically (Y-Coordinate)!
+Author: xxthepersonx
+Name: MovePageDots
+
 Package: com.person.nalb
 Version: 0.0.1-5+debug
 Architecture: iphoneos-arm
