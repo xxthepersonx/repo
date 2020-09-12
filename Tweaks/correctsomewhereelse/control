@@ -1,0 +1,9 @@
+Package: com.person.correctsomewhereelse
+Name: CorrectSomewhereElse
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Block Autocorrect popup in certain apps!
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks

@@ -9,5 +9,5 @@ bzip2 -cf Packages > Packages.bz2
 find . -name '.DS_Store' -type f -delete
 
 git add -A
-git commit -m "nopagedots arm64e"
+git commit -m "added CorrectSomewhereElse"
 git push -u origin master

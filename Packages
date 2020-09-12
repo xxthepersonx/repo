@@ -14,6 +14,22 @@ Description: Skip to previous track every time back skip button is pressed. No m
 Author: xxthepersonx
 Name: BackTrackSpotify
 
+Package: com.person.correctsomewhereelse
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
+Filename: ./Tweaks/correctsomewhereelse/packages/com.person.correctsomewhereelse_1.0.0_iphoneos-arm.deb
+Size: 5446
+MD5sum: 93a9302788ce6883e42d888b80e603eb
+SHA1: ee90f851a1fa21f9c04ccfc756508ba952dcdddf
+SHA256: ba3b5087badaba6edb43d8a9b3f4069793e82b3f1c6611cd392040d86fc7dd57
+Section: Tweaks
+Description: Block Autocorrect popup in certain apps!
+Author: xxthepersonx
+Name: CorrectSomewhereElse
+
 Package: com.person.emojiporter1011
 Version: 1.0
 Architecture: iphoneos-arm
