@@ -1,0 +1,10 @@
+Package: com.person.dcv
+Name: DontChangeTheVolume
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Disables Changing volume with volume buttons
+Maintainer: xxthepersonx
+Author: xxthepersonx
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 312
