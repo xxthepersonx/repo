@@ -9,5 +9,5 @@ bzip2 -cf Packages > Packages.bz2
 find . -name '.DS_Store' -type f -delete
 
 git add -A
-git commit -m "added CorrectSomewhereElse"
+git commit -m "added Extras Folder"
 git push -u origin master
