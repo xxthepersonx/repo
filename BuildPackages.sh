@@ -9,5 +9,5 @@ bzip2 -cf Packages > Packages.bz2
 find . -name '.DS_Store' -type f -delete
 
 git add -A
-git commit -m "added Extras Folder"
+git commit -m "add <13 support for dcv"
 git push -u origin master

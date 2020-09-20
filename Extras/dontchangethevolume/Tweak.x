@@ -9,6 +9,16 @@
 }
 
 %end
+
+%hook VolumeControl
+
+- (void)increaseVolume {
+}
+
+- (void)decreaseVolume {
+}
+
+%end
 %end
 
 %ctor {
