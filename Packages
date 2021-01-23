@@ -140,6 +140,22 @@ Description: Gets rid of App Store link banners in safari. No settings to config
 Author: xxthepersonx
 Name: NoAppLinkBanners
 
+Package: com.person.nnsp
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: xxthepersonx
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./Tweaks/nonewssoftpaywalls/packages/com.person.nnsp_1.0_iphoneos-arm.deb
+Size: 3374
+MD5sum: 6bdb404bc9fbb68b6f9f60c9a77fa5c4
+SHA1: f1ee96256332e7ccdfc32012b0e028d927d44c27
+SHA256: f5d9d91115197baaae1d84518942c8a3094c40ef34bc918f8a47846f9a905527
+Section: Tweaks
+Description: Gets rid of soft paywalls in articles, aka "News+, TRY IT FOR FREE" banner
+Author: xxthepersonx
+Name: NoNewsSoftPaywalls
+
 Package: com.person.nopagedots
 Version: 1.0.1
 Architecture: iphoneos-arm
