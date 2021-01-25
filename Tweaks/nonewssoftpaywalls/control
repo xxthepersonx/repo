@@ -1,9 +1,0 @@
-Package: com.person.nnsp
-Name: NoNewsSoftPaywalls
-Version: 1.0
-Architecture: iphoneos-arm
-Description: Gets rid of soft paywalls in articles, aka "News+, TRY IT FOR FREE" banner
-Maintainer: xxthepersonx
-Author: xxthepersonx
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)

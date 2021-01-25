@@ -1,3 +1,19 @@
+Package: bz.jed.tweakcompatible
+Version: 0.1.6
+Architecture: iphoneos-arm
+Maintainer: Jed
+Installed-Size: 448
+Depends: mobilesubstrate
+Filename: ./Tweaks/bz.jed.tweakcompatible_0.1.6_iphoneos-arm.deb
+Size: 57528
+MD5sum: bc09ee70539a82dc054c72ff1af46893
+SHA1: 61776b8d5fa6b6d75c3106fb56e4772189a2a8a8
+SHA256: 1d7b086b9ecf4b575658d35d1e0c2683554746b39c39860178d6aa73e3006cf4
+Section: Tweaks
+Description: Adds a way to check tweak compatibility in cydia
+Author: Jed
+Name: tweakCompatible
+
 Package: com.person.btspotify
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -140,22 +156,6 @@ Description: Gets rid of App Store link banners in safari. No settings to config
 Author: xxthepersonx
 Name: NoAppLinkBanners
 
-Package: com.person.nnsp
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: xxthepersonx
-Installed-Size: 136
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./Tweaks/nonewssoftpaywalls/packages/com.person.nnsp_1.0_iphoneos-arm.deb
-Size: 3374
-MD5sum: 6bdb404bc9fbb68b6f9f60c9a77fa5c4
-SHA1: f1ee96256332e7ccdfc32012b0e028d927d44c27
-SHA256: f5d9d91115197baaae1d84518942c8a3094c40ef34bc918f8a47846f9a905527
-Section: Tweaks
-Description: Gets rid of soft paywalls in articles, aka "News+, TRY IT FOR FREE" banner
-Author: xxthepersonx
-Name: NoNewsSoftPaywalls
-
 Package: com.person.nopagedots
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -203,22 +203,6 @@ Section: Tweaks
 Description: plays the windows startup sound when you respring your device! Also supports custom sounds! Version  1.1.2 adds an option to play sound early!
 Author: xxthepersonx
 Name: SBWelcomesYou
-
-Package: com.person.scrubup
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: xxthepersonx
-Installed-Size: 312
-Depends: mobilesubstrate
-Filename: ./Tweaks/scrubup/packages/com.person.scrubup_1.0_iphoneos-arm.deb
-Size: 7222
-MD5sum: 4b280272db5b6d13a819d9fdf070e8fe
-SHA1: bea782bdd9cb7c63ea0e5c317960ed18c32e19c8
-SHA256: d362d2f67137fe1551d51bf1d0d508f345f4457e7e885d262f109a216f71f488
-Section: Tweaks
-Description: Customize your lock screen scrubber size
-Author: xxthepersonx
-Name: ScrubUp
 
 Package: com.person.shhutter
 Version: 1.1.0
